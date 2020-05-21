@@ -1,0 +1,59 @@
+.amtSpin {
+    animation: spin 1s 1 linear;
+}
+.amtFade {
+    animation: fade 1s 1 linear;
+}
+.amtShake {
+    animation: shake 1s 1 linear;
+}
+.amtYellow {
+    animation: toYellow 1s 1 linear;
+}
+.amtRed {
+    animation: toRed 1s 1 linear;
+}
+.amtBlue {
+    animation: toBlue 1s 1 linear;
+}
+.amtOrangered {
+    animation: toOrangered 1s 1 linear;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(30deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(-30deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(30deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(-30deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(30deg);}
+    100% {transform: rotate(0deg);}
+}
+@keyframes toYellow {
+    0% {}
+    100% {background-color: yellow;}
+}
+@keyframes toRed {
+    0% {}
+    100% {background-color: red;}
+}
+@keyframes toBlue {
+    0% {}
+    100% {background-color: blue;}
+}
+@keyframes toOrangered {
+    0% {}
+    100% {background-color: orangered;}
+}

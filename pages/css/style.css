@@ -1,0 +1,13 @@
+.pad {
+    margin: 5px;
+    flex: 1 1 calc(25% - 10px);
+    height: calc(17vw - 10px);
+}
+.padComponent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
